@@ -66,6 +66,7 @@ ul{
     display:flex;
     flex-direction: column;
     align-items: center;
+    padding:5vh 0px;
 }
 
 .subtext{
@@ -83,7 +84,7 @@ ul{
     background-color:#E5E7EB;
     display:flex;
     flex-direction: column;
-    padding:10vh 0px;
+    padding:15vh 0px;
     flex:1;
     justify-content: center;
     align-items: center;
@@ -92,16 +93,21 @@ ul{
 .signup-image{
     display:flex;
     margin-bottom: 20px;
+    justify-content: space-between;
+    gap:10px;
 }
 
 
 .call-to-action{
     margin:100px auto;
     background-color: #3882F6;
-    padding:50px;
+    padding:10px 50px;
     border-radius:25px;
     flex:1;
-    color:#E5E7EB
+    color:#E5E7EB;
+    display:flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .footer{
@@ -112,4 +118,11 @@ ul{
     justify-content: center;
 }
 
-
+button{
+    padding:30px 80px;
+    border-radius:25px;
+    background-color: #3882F6;
+    border-color: white;
+    border-width: 5px;
+    border-style:solid;
+}
