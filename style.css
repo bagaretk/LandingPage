@@ -37,10 +37,11 @@ a{
     font-size:36px;
     font-style: italic;
     color:#1F2937;
+    margin:0px 20vh;
 }
 
 .header{
-    padding:0px 20vh;
+    padding:0px 15vh;
     background-color: #1F2937;
 }
 
@@ -67,28 +68,40 @@ ul{
     align-items: center;
 }
 
-.subtext ul{
-    display:flex;
-    gap:15px;
-    flex-wrap: wrap;
+.subtext{
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin-bottom: 30px;
 }
 
+.info {
+    max-width: 200px;
+  }
 .quote{
     background-color:#E5E7EB;
     display:flex;
     flex-direction: column;
     padding:10vh 0px;
+    flex:1;
+    justify-content: center;
+    align-items: center;
 }
 
 .signup-image{
     display:flex;
+    margin-bottom: 20px;
 }
+
 
 .call-to-action{
     margin:100px auto;
     background-color: #3882F6;
     padding:50px;
     border-radius:25px;
+    flex:1;
+    color:#E5E7EB
 }
 
 .footer{
